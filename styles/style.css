@@ -278,8 +278,6 @@
   transform: translateX(0);
 }
 
-
-
 .card__like-button .button__text,
 .save-button .button__text,
 .save-button .save-icon,
@@ -297,9 +295,6 @@
   box-shadow: 2px 2px 0 var(--accent-color);
 }
 
-
-
-
 @media (min-width: 768px) {
   .save-button {
     flex-direction: row;
@@ -308,12 +303,6 @@
 }
 
 @media (width <=375px) {
-
-
-
-
-
-
 
   .save-button {
     margin-block-start: 30px;
@@ -325,7 +314,6 @@
     padding: 20px;
     width: 95%;
   }
-
 }
 
 .filter_vintage {
