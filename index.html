@@ -18,15 +18,10 @@
 </head>
 
 <body class="page">
-  <svg style="display: none" xmlns="http://www.w3.org/2000/svg">
-    <symbol id="floppy" viewBox="0 0 39 39" fill="currentColor">
-      <path
-        d="M0 0h3v3H0zM0 3h3v3H0zM0 6h3v3H0zM0 9h3v3H0zM0 12h3v3H0zM0 15h3v3H0zM0 18h3v3H0zM0 21h3v3H0zM0 24h3v3H0zM0 27h3v3H0zM0 30h3v3H0zM0 33h3v3H0zM0 36h3v3H0zM33 0v3h-3V0zM30 0v3h-3V0zM27 0v3h-3V0zM24 0v3h-3V0zM21 0v3h-3V0zM18 0v3h-3V0zM15 0v3h-3V0zM12 0v3H9V0zM9 0v3H6V0zM6 0v3H3V0zM36 3v3h-3V3zM9 6v3H6V6zM9 3v3H6V3zM9 9v3H6V9zM30 6v3h-3V6zM30 3v3h-3V3zM30 9v3h-3V9zM24 6v3h-3V6zM24 3v3h-3V3zM24 9v3h-3V9zM30 12v3h-3v-3zM27 12v3h-3v-3zM24 12v3h-3v-3zM21 12v3h-3v-3zM18 12v3h-3v-3zM15 12v3h-3v-3zM12 12v3H9v-3zM9 12v3H6v-3zM33 21v3h-3v-3zM30 21v3h-3v-3zM27 21v3h-3v-3zM24 21v3h-3v-3zM21 21v3h-3v-3zM18 21v3h-3v-3zM15 21v3h-3v-3zM12 21v3H9v-3zM9 21v3H6v-3zM33 24v3h-3v-3zM9 24v3H6v-3zM33 27v3h-3v-3zM9 27v3H6v-3zM33 30v3h-3v-3zM9 30v3H6v-3zM9 33v3H6v-3zM33 33v3h-3v-3zM36 36v3h-3v-3zM33 36v3h-3v-3zM30 36v3h-3v-3zM27 36v3h-3v-3zM24 36v3h-3v-3zM21 36v3h-3v-3zM18 36v3h-3v-3zM15 36v3h-3v-3zM12 36v3H9v-3zM9 36v3H6v-3zM6 36v3H3v-3zM39 39h-3v-3h3zM39 36h-3v-3h3zM39 33h-3v-3h3zM39 30h-3v-3h3zM39 27h-3v-3h3zM39 24h-3v-3h3zM39 21h-3v-3h3zM39 18h-3v-3h3zM39 15h-3v-3h3zM39 12h-3V9h3zM39 9h-3V6h3z" />
-    </symbol>
-  </svg>
+
   <header class="header">
     <div class="header__container">
-      <div class="header__logo">&lt;/html&gt;</div>
+      <p class="header__logo">&lt;/html&gt;</p>
       <h1 class="header__title">Закрывающий тег</h1>
     </div>
   </header>
@@ -35,7 +30,7 @@
       <h2 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
 
       <div class="card__image-wrapper">
-        <img class="card__image" src="./images/image.png" alt="Пиксельный фургон" />
+        <img class="card__image" src="./images/image.png" alt="Пиксельный фургон" loading="lazy" />
         <span class="card__watermark" aria-hidden="true">&lt;/html&gt;</span>
       </div>
 
@@ -44,8 +39,8 @@
       <p class="card__text">Волнуюсь, но очень хочу узнать, что же там дальше в этом коде.</p>
 
       <div class="card__actions">
-        <button class="card__icon-button" type="button" aria-label="Поставить лайк">
-          <svg class="like-icon" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <button class="card__icon-button button" type="button" aria-label="Поставить лайк">
+          <svg class="like-icon" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <g class="heart">
 
               <path class="contour"
@@ -67,7 +62,7 @@
           </svg>
         </button>
 
-        <button class="card__like-button" type="button">
+        <button class="card__like-button button" type="button">
           <span class="button__text">Like</span>
         </button>
       </div>
@@ -78,7 +73,8 @@
 
       <div class="card__image-wrapper">
 
-        <img class="card__image filter_dark" src="./images/image.png" alt="пиксельный темный лес" />
+        <img class="card__image filter-brightness-contrast" src="./images/image.png" alt="пиксельный темный лес"
+          loading="lazy" />
 
         <span class="card__watermark" aria-hidden="true">&lt;/chaos&gt;</span>
       </div>
@@ -91,7 +87,7 @@
 
       <div class="card__actions">
         <button class="card__icon-button" type="button" aria-label="Поставить лайк">
-          <svg class="like-icon" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="like-icon" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <g class="heart">
 
               <path class="contour"
@@ -113,7 +109,7 @@
           </svg>
         </button>
 
-        <button class="card__like-button" type="button">
+        <button class="card__like-button button" type="button">
           <span class="button__text">Like</span>
         </button>
       </div>
@@ -124,7 +120,8 @@
 
       <div class="card__image-wrapper">
 
-        <img class="card__image filter_neon" src="./images/image.png" alt="девушка с вопросом" />
+        <img class="card__image filter-invert-hue-saturate" src="./images/image.png" alt="девушка с вопросом"
+          loading="lazy" />
 
         <span class="card__watermark" aria-hidden="true">&lt;/doubts&gt;</span>
       </div>
@@ -135,7 +132,7 @@
 
       <div class="card__actions">
         <button class="card__icon-button" type="button" aria-label="Поставить лайк">
-          <svg class="like-icon" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="like-icon" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <g class="heart">
 
               <path class="contour"
@@ -158,7 +155,7 @@
           </svg>
         </button>
 
-        <button class="card__like-button" type="button">
+        <button class="card__like-button button" type="button">
           <span class="button__text">Like</span>
         </button>
       </div>
@@ -169,7 +166,8 @@
 
       <div class="card__image-wrapper">
 
-        <img class="card__image filter_contrast" src="./images/image.png" alt="компьютер на столе" />
+        <img class="card__image filter-contrast-grayscale" src="./images/image.png" alt="компьютер на столе"
+          loading="lazy" />
 
         <span class="card__watermark" aria-hidden="true">&lt;/pixel&gt;</span>
       </div>
@@ -181,7 +179,7 @@
 
       <div class="card__actions">
         <button class="card__icon-button" type="button" aria-label="Поставить лайк">
-          <svg class="like-icon" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="like-icon" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <g class="heart">
 
               <path class="contour"
@@ -203,7 +201,7 @@
           </svg>
         </button>
 
-        <button class="card__like-button" type="button">
+        <button class="card__like-button button" type="button">
           <span class="button__text">Like</span>
         </button>
       </div>
@@ -214,7 +212,7 @@
 
       <div class="card__image-wrapper">
 
-        <img class="card__image filter_warm" src="./images/image.png" alt="команда" />
+        <img class="card__image filter-sepia-hue-saturate" src="./images/image.png" alt="команда" loading="lazy" />
 
         <span class="card__watermark" aria-hidden="true">&lt;/Team&gt;</span>
       </div>
@@ -227,7 +225,7 @@
 
       <div class="card__actions">
         <button class="card__icon-button" type="button" aria-label="Поставить лайк">
-          <svg class="like-icon" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="like-icon" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <g class="heart">
 
               <path class="contour"
@@ -249,7 +247,7 @@
           </svg>
         </button>
 
-        <button class="card__like-button" type="button">
+        <button class="card__like-button button" type="button">
           <span class="button__text">Like</span>
         </button>
       </div>
@@ -260,7 +258,8 @@
 
       <div class="card__image-wrapper">
 
-        <img class="card__image filter_calm" src="./images/image.png" alt="девушка за компьютером" />
+        <img class="card__image filter-saturate-brightness" src="./images/image.png" alt="девушка за компьютером"
+          loading="lazy" />
 
         <span class="card__watermark" aria-hidden="true">&lt;/Zen&gt;</span>
       </div>
@@ -271,7 +270,7 @@
 
       <div class="card__actions">
         <button class="card__icon-button" type="button" aria-label="Поставить лайк">
-          <svg class="like-icon" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="like-icon" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <g class="heart">
 
               <path class="contour"
@@ -293,7 +292,7 @@
           </svg>
         </button>
 
-        <button class="card__like-button" type="button">
+        <button class="card__like-button button" type="button">
           <span class="button__text">Like</span>
         </button>
       </div>
@@ -304,7 +303,7 @@
 
       <div class="card__image-wrapper">
 
-        <img class="card__image filter_burnout" src="./images/image.png" alt="Персонаж уснул за столом" />
+        <img class="card__image filter-blur" src="./images/image.png" alt="Персонаж уснул за столом" loading="lazy" />
 
         <span class="card__watermark" aria-hidden="true">&lt;/Burnout&gt;</span>
       </div>
@@ -316,7 +315,7 @@
 
       <div class="card__actions">
         <button class="card__icon-button" type="button" aria-label="Поставить лайк">
-          <svg class="like-icon" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="like-icon" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <g class="heart">
 
               <path class="contour"
@@ -339,7 +338,7 @@
           </svg>
         </button>
 
-        <button class="card__like-button" type="button">
+        <button class="card__like-button button" type="button">
           <span class="button__text">Like</span>
         </button>
       </div>
@@ -350,7 +349,7 @@
 
       <div class="card__image-wrapper">
 
-        <img class="card__image filter_sunset" src="images/image.png" alt="фургон возле моря" />
+        <img class="card__image filter-sepia-saturate" src="images/image.png" alt="фургон возле моря" loading="lazy" />
 
         <span class="card__watermark" aria-hidden="true">&lt;/Experience&gt;</span>
       </div>
@@ -363,7 +362,7 @@
 
       <div class="card__actions">
         <button class="card__icon-button" type="button" aria-label="Поставить лайк">
-          <svg class="like-icon" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="like-icon" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <g class="heart">
               <path class="contour"
                 d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z"
@@ -385,28 +384,28 @@
           </svg>
         </button>
 
-        <button class="card__like-button" type="button">
+        <button class="card__like-button button" type="button">
           <span class="button__text">Like</span>
         </button>
       </div>
     </article>
 
-    <button class="save-button" type="button" onclick="document.getElementById('save-dialog').showModal()">
-      <svg class="save-icon" width="39" height="39">
-        <use href="#floppy"></use>
+    <button class="save-button button" type="button" onclick="document.getElementById('save-dialog').showModal()">
+      <svg class="save-icon" width="39" height="39" xmlns="http://www.w3.org/2000/svg">
+        <use href="./svg/sprite.svg#floppy"></use>
       </svg>
       <span class="button__text">Сохранить на память</span>
     </button>
 
     <dialog class="dialog" id="save-dialog">
       <div class="dialog__icon">
-        <svg width="39" height="39">
-          <use href="#floppy"></use>
+        <svg width="39" height="39" xmlns="http://www.w3.org/2000/svg">
+          <use href="./svg/sprite.svg#floppy"></use>
         </svg>
       </div>
-      <p class="dialog__text">Вставьтe<br>дискету, чтобы<br>продолжить</p>
+      <p class="dialog__text">Вставьтe дискету, чтобы продолжить</p>
       <form method="dialog" class="dialog__form">
-        <button class="dialog__button" type="submit">
+        <button class="dialog__button button" type="submit">
           <span class="button__text">ок</span>
         </button>
       </form>
