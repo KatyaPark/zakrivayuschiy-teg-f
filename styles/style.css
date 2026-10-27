@@ -288,11 +288,16 @@
 @media (min-width: 768px) {
   .save-button {
     flex-direction: row;
-    padding: 17px 20px;
+    padding: 16px 18px;
   }
 
   .header__container {
     padding-block: 130px;
+  }
+
+  .save-icon {
+    width: 21px;
+    height: 21px;
   }
 }
 
