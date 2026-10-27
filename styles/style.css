@@ -158,7 +158,8 @@
 }
 
 .card__like-button {
-  padding: 12px 37px;
+  min-width: 130px;
+  min-height: 38px;
 }
 
 .button__text {
@@ -166,17 +167,11 @@
   font-size: 14px;
 }
 
-.save-icon {
-  inline-size: 39px;
-  block-size: 39px;
-}
-
 .save-button {
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
   padding: 15px 20px;
-  margin-block-start: 50px;
-  margin-block-end: 50px;
+
 }
 
 .button {
@@ -276,28 +271,28 @@
   text-transform: uppercase;
 }
 
-@media (min-width: 768px) {
-  .save-button {
-    flex-direction: row;
-    padding: 10px 20px;
-  }
 
-  .header__container {
-    padding-block: 130px;
-  }
-}
 
 @media (width <=375px) {
 
   .save-button {
-    margin-block-start: 30px;
-    margin-block-end: 30px;
-    padding: 12px 15px;
+    padding: 17px 20px;
   }
 
   .dialog {
     padding: 20px;
     width: 95%;
+  }
+}
+
+@media (min-width: 768px) {
+  .save-button {
+    flex-direction: row;
+    padding: 17px 20px;
+  }
+
+  .header__container {
+    padding-block: 130px;
   }
 }
 
